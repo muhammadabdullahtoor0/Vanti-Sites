@@ -7,6 +7,7 @@ import { defineConfig } from "vite";
 const rootDirectory = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  base: "/Vanti-Sites/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
